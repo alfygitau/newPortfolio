@@ -70,9 +70,9 @@ export const Homepage = () => {
             <DriveFolderUpload style={iconStyles} />
             PortFolio
           </NavLink>
-          <NavLink to="#" style={linkStyles}>
+          <NavLink to="references" style={linkStyles}>
             <Dns style={iconStyles} />
-            Services
+            References
           </NavLink>
           <NavLink to="contact" style={linkStyles}>
             <EmailOutlined style={iconStyles} />
