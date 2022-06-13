@@ -42,6 +42,9 @@ export const References = () => {
         >
           <div>
             <Card>
+            <ImageWrapper>
+                <Image src="https://avatars.githubusercontent.com/u/32747409?v=4" />
+              </ImageWrapper>
               <Name>
                 <strong>Name: </strong>George Ndung'u
               </Name>
@@ -55,6 +58,9 @@ export const References = () => {
 
           <div>
             <Card>
+              <ImageWrapper>
+                <Image src="https://avatars.githubusercontent.com/u/11762046?v=4" />
+              </ImageWrapper>
               <Name>
                 <strong>Name: </strong>Anthony Kimani
               </Name>
@@ -69,6 +75,9 @@ export const References = () => {
 
           <div>
             <Card>
+            <ImageWrapper>
+                <Image src="https://avatars.githubusercontent.com/u/26279422?v=4" />
+              </ImageWrapper>
               <Name>
                 <strong>Name: </strong>Kaleb Kiprotich
               </Name>
@@ -97,8 +106,8 @@ const Section = styled.div`
   height: 400px;
   margin-top: 20px;
   gap: 1.5em;
-  border: 1px solid rgb(235,235,235);
-  border-radius: 5px;
+  border: 1px solid rgb(235, 235, 235);
+  /* border-radius: 5px; */
 `;
 const Card = styled.div`
   height: 400px;
@@ -122,7 +131,20 @@ const Tel = styled.p`
   padding: 5px;
 `;
 const Page = styled.div`
-    width: 90%;
-    margin-right: auto;
-    margin-left: auto;
-`
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+`;
+const Image = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+`;
+const ImageWrapper = styled.div`
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  margin-left: 40px;
+`;

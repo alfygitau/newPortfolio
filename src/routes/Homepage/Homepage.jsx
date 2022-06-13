@@ -66,7 +66,7 @@ export const Homepage = () => {
             <School style={iconStyles} />
             Resume
           </NavLink>
-          <NavLink to="#" style={linkStyles}>
+          <NavLink to="portfolio" style={linkStyles}>
             <DriveFolderUpload style={iconStyles} />
             PortFolio
           </NavLink>

@@ -6,8 +6,8 @@ export const Contact = () => {
   return (
     <Wrapper>
       <Content>
-        A currently seeking a job as a freelance developer, full time develeoper
-        and part-time developer preferably in the remote environment. I am open
+        Am currently seeking a job as a freelance developer, full time develeoper
+        and a part-time developer preferably in the remote environment. I am open
         to learning new skills as well as learn from my new peers.
       </Content>
       <Section>
@@ -70,13 +70,13 @@ const Section = styled.div`
 `;
 const Location = styled.div`
   width: 35%;
-  border: 0.5px solid black;
+  border: 0.5px solid rgb(235,235,235);
   margin-bottom: 20px;
   padding: 10px;
 `;
 const ContactForm = styled.div`
   width: 60%;
-  border: 0.5px solid black;
+  border: 1px solid rgb(235,235,235);
   margin-bottom: 20px;
   padding: 10px;
 `;

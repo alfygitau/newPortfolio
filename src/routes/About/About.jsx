@@ -101,19 +101,19 @@ export const About = () => {
             <Progress.Line percent={90} status="success" />
             <p>TypeScript</p>
             <Progress.Line percent={90} status="success" />
-            <p>React</p>
+            <p>React and its ecosystem</p>
             <Progress.Line percent={90} status="success" />
-            <p>Next</p>
+            <p>Next JS, SSR and pre-rendering</p>
             <Progress.Line percent={90} status="success" />
           </Section>
           <Section>
-            <p>Redux</p>
+            <p>Redux/ReactQuery/mobX/useAxios</p>
             <Progress.Line percent={90} status="success" />
-            <p>Redux Tool Kit (RTK)</p>
+            <p>Redux Tool Kit (RTK)/RTK Query</p>
             <Progress.Line percent={90} status="success" />
-            <p>HTML</p>
+            <p>HTML 5</p>
             <Progress.Line percent={90} status="success" />
-            <p>CSS/Pre-Processors/SAAS/LESS/styled-components</p>
+            <p>CSS 3 & Pre-Processors/SAAS/LESS/styled-components</p>
             <Progress.Line percent={90} status="success" />
           </Section>
         </Info>

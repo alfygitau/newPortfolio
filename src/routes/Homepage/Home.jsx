@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import Typical from "react-typical";
-import homebackground from "../../images/hero-bg.jpg";
+import homebackground from "../../images/home.jpeg";
 import { Button } from "../NotFound/NotFound";
 
 export const Home = () => {
@@ -35,7 +35,7 @@ const Wrapper = styled.div`
   width: 100%;
   height: 100%;
   background-image: url(${homebackground});
-  background-size: cover;
+  background-size: contain;
   display: flex;
   align-items: center;
   justify-content: center;
