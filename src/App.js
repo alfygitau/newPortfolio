@@ -7,6 +7,7 @@ import { Home } from "./routes/Homepage/Home";
 import { Resume } from "./routes/Resume/Resume";
 import { NotFound } from "./routes/NotFound/NotFound";
 import { Contact } from "./routes/Contact/Contact";
+import { References } from "./routes/References/References";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="about" element={<About />} />
             <Route path="resume" element={<Resume />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="references" element={<References />} />
           </Route>
 
           {/* catch all routes */}
