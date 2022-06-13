@@ -6,6 +6,7 @@ import { About } from "./routes/About/About";
 import { Home } from "./routes/Homepage/Home";
 import { Resume } from "./routes/Resume/Resume";
 import { NotFound } from "./routes/NotFound/NotFound";
+import { Contact } from "./routes/Contact/Contact";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="home" element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="resume" element={<Resume />} />
+            <Route path="contact" element={<Contact />} />
           </Route>
 
           {/* catch all routes */}

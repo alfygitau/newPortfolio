@@ -74,7 +74,7 @@ export const Homepage = () => {
             <Dns style={iconStyles} />
             Services
           </NavLink>
-          <NavLink to="#" style={linkStyles}>
+          <NavLink to="contact" style={linkStyles}>
             <EmailOutlined style={iconStyles} />
             Contact
           </NavLink>
