@@ -1,6 +1,6 @@
 import { NavLink, Outlet } from "react-router-dom";
 import styled from "styled-components";
-import profile from "../../images/profile-img.jpg";
+import profile from "../../images/alfy.jpeg";
 import {
   Dns,
   DriveFolderUpload,
