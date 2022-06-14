@@ -63,6 +63,9 @@ const Download = styled.a`
   background-color: white;
   padding: 7px;
   text-decoration: none;
+  width: 160px;
+  text-align: center;
+  border-radius: 5px;
   &:hover {
     text-decoration: none;
     background-color: rgb(4, 11, 20);
