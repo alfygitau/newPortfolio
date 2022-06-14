@@ -37,21 +37,46 @@ export const Homepage = () => {
           <Name>Alfred Gitau</Name>
         </Profile>
         <Socials>
-          <NavLink to="#" style={linkStyles}>
+          <a
+            href="https://www.linkedin.com/in/alfred-kariuki-b2aa67229/"
+            target="_blank"
+            rel="noreferrer"
+            style={linkStyles}
+          >
             <LinkedIn />
-          </NavLink>
-          <NavLink to="#" style={linkStyles}>
+          </a>
+          <a
+            href="https://www.facebook.com/alfred.kariuki2"
+            target="_blank"
+            rel="noreferrer"
+            style={linkStyles}
+          >
             <FacebookOutlined />
-          </NavLink>
-          <NavLink to="#" style={linkStyles}>
+          </a>
+          <a
+            href="https://www.instagram.com/alfygitau/"
+            target="_blank"
+            rel="noreferrer"
+            style={linkStyles}
+          >
             <Instagram />
-          </NavLink>
-          <NavLink to="#" style={linkStyles}>
+          </a>
+          <a
+            href="https://github.com/alfygitau"
+            target="_blank"
+            rel="noreferrer"
+            style={linkStyles}
+          >
             <GitHub />
-          </NavLink>
-          <NavLink to="#" style={linkStyles}>
+          </a>
+          <a
+            href="https://twitter.com/alfy_gitz"
+            target="_blank"
+            rel="noreferrer"
+            style={linkStyles}
+          >
             <Twitter />
-          </NavLink>
+          </a>
         </Socials>
         <Tabs>
           <NavLink to="home" style={linkStyles}>

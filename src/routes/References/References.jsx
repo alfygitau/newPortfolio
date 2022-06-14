@@ -42,7 +42,7 @@ export const References = () => {
         >
           <div>
             <Card>
-            <ImageWrapper>
+              <ImageWrapper>
                 <Image src="https://avatars.githubusercontent.com/u/32747409?v=4" />
               </ImageWrapper>
               <Name>
@@ -55,7 +55,6 @@ export const References = () => {
               <Tel>Tel: 0741790736</Tel>
             </Card>
           </div>
-
           <div>
             <Card>
               <ImageWrapper>
@@ -72,10 +71,9 @@ export const References = () => {
               <Tel>Tel: 0712966136</Tel>
             </Card>
           </div>
-
           <div>
             <Card>
-            <ImageWrapper>
+              <ImageWrapper>
                 <Image src="https://avatars.githubusercontent.com/u/26279422?v=4" />
               </ImageWrapper>
               <Name>
