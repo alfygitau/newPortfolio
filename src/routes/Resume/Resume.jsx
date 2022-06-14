@@ -12,16 +12,16 @@ export const Resume = () => {
             <Institution>University of Kabianga, Kericho Kenya</Institution>
             <Description>
               I studied BSC, Computer Science, specialized with front-end
-              development with JavaScript and TypeScript
+              development with JavaScript and TypeScript.
             </Description>
           </List>
           <List>
-            <Course>Bachelor Of Science, Computer Science</Course>
-            <Year>2012-2016</Year>
-            <Institution>University of Kabianga, Kericho Kenya</Institution>
+            <Course>Javascript and its principles</Course>
+            <Year>2016-2017</Year>
+            <Institution>Atlas College of Professional Studies</Institution>
             <Description>
-              I studied BSC, Computer Science, specialized with front-end
-              development with JavaScript and TypeScript
+              I studied javaScript core framework React JS, then enrolled at
+              freeCodeCamp and Udemy to study Next JS and Typescript.
             </Description>
           </List>
         </UnList>
@@ -100,7 +100,7 @@ export const Resume = () => {
               </List>
               <List>
                 Followed SDLC best practices within Agile environment to produce
-                rapid iterations for clients
+                rapid iterations for clients.
               </List>
             </Roles>
           </List>
@@ -109,13 +109,11 @@ export const Resume = () => {
     </Box>
   );
 };
-
 const Box = styled.div`
   width: 95%;
   margin-right: auto;
   margin-left: auto;
   display: flex;
-  /* border: 1px solid black; */
   margin-top: 20px;
 `;
 const Section = styled.div`
