@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Typical from "react-typical";
 import homebackground from "../../images/home.jpeg";
-import { Button } from "../NotFound/NotFound";
+import cv from "../../assets/alfyCV.doc";
 
 export const Home = () => {
   return (
@@ -24,7 +24,9 @@ export const Home = () => {
               ]}
             />
           </Paragraph>
-          <Button>Download CV</Button>
+          <Download href={cv} download>
+            Download Cv
+          </Download>
         </Section>
       </Wrapper>
     </>
@@ -55,4 +57,18 @@ const Title = styled.p`
   color: white;
   font-size: 50px;
   font-weight: bold;
+`;
+const Download = styled.a`
+  color: black;
+  background-color: white;
+  padding: 7px;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+    background-color: rgb(4, 11, 20);
+    color: white;
+  }
+  &:visited {
+    text-decoration: none;
+  }
 `;
