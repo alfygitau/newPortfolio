@@ -68,7 +68,7 @@ export const About = () => {
         <h4>What you need to know about me</h4>
         <Content>
           <UnList>
-            <List>5+ years of experience building frontend applications</List>
+            <List>3+ years of experience building frontend applications</List>
             <List>
               Strong knowledge of React and its ecosystem. Understanding of how
               it differs from another libraries
